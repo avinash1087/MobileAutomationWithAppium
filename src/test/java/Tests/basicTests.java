@@ -71,12 +71,4 @@ public class basicTests extends TestBase {
 		assertEquals(objPerferenceDependencyMenu.wifiSettingTextBox.getText(), "TestWifi");
 	}
 
-	@AfterClass
-	public void teardown() {
-		
-		//Close the driver
-		driver.close();
-		driver.quit();
-	}
-
 }

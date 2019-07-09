@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HomeScreen {
 	AndroidDriver<MobileElement> driver;
@@ -19,5 +20,5 @@ public class HomeScreen {
 	@FindBy(xpath="//android.widget.TextView[@text='Preference']")
 	public WebElement preference;
 	
-	
+
 }
